@@ -1,31 +1,32 @@
 # CursoOutono
 
-laravel
-DBeaver
-mysql
-Blade
-artisan 
-composer
+laravel.
+DBeaver.
+mysql.
+Blade.
+artisan .
+composer.
 
 # Requisitos
 
-• Ter o XAMPP instalado
-Rodar o Apache e o MySQL
+• Ter o XAMPP instalado.
+Rodar o Apache e o MySQL.
 
 ## Criando o Projeto laravel com o composer
 
 - (cmd) Na pasta qu se deseja criar o projeto.
-composer create-project laravel/laravel "project.name"
+composer create-project laravel/laravel "project.name".
+composer require laravel/breeze.
 
 # Comandos
 
-- Caminhar até o diretório do projeto pelo cmd
-php artisan serve - para iniciar o servidor do Laravel
+- Caminhar até o diretório do projeto pelo cmd.
+php artisan serve - para iniciar o servidor do Laravel.
 
 
 ## Criando as migrations(tables do banco)
 
-- Na pasta do Projeto
-php artisan make:migration "migration.name"
+- Na pasta do Projeto.
+php artisan make:migration "migration.name".
 
-Após criar todas as migrations, no cmd, executar o comando: php artisan migrate
+Após criar todas as migrations, no cmd, executar o comando: php artisan migrate.

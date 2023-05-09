@@ -16,3 +16,11 @@ Rodar o Apache e o MySQL
 
 - Caminhar até o diretório do projeto pelo cmd
 php artisan serve - para iniciar o servidor do Laravel
+
+
+## Criando as migrations(tables do banco)
+
+- Na pasta do Projeto
+php artisan make:migration "migration.name"
+
+Após criar todas as migrations, no cmd, executar o comando: php artisan migrate

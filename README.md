@@ -12,6 +12,11 @@ composer
 • Ter o XAMPP instalado
 Rodar o Apache e o MySQL
 
+## Criando o Projeto laravel com o composer
+
+- (cmd) Na pasta qu se deseja criar o projeto.
+composer create-project laravel/laravel "project.name"
+
 # Comandos
 
 - Caminhar até o diretório do projeto pelo cmd

@@ -9,7 +9,7 @@ composer
 
 # Requisitos
 
-Ter o XAMPP instalado
+• Ter o XAMPP instalado
 Rodar o Apache e o MySQL
 
 # Comandos

@@ -1,11 +1,6 @@
 # CursoOutono
 
-laravel.
-DBeaver.
-mysql.
-Blade.
-artisan .
-composer.
+Laravel, DBeaver, MySQL, Blade, Artisan, Composer.
 
 # Requisitos
 
@@ -16,13 +11,14 @@ Rodar o Apache e o MySQL.
 
 - (cmd) Na pasta qu se deseja criar o projeto.
 composer create-project laravel/laravel "project.name".
+
 composer require laravel/breeze.
+php artisan breeze:install --dark
 
 # Comandos
 
 - Caminhar até o diretório do projeto pelo cmd.
 php artisan serve - para iniciar o servidor do Laravel.
-
 
 ## Criando as migrations(tables do banco)
 

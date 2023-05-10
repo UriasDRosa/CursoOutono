@@ -26,3 +26,8 @@ php artisan serve - para iniciar o servidor do Laravel.
 php artisan make:migration "migration.name".
 
 Após criar todas as migrations, no cmd, executar o comando: php artisan migrate.
+
+php artisan make:controller "controller.name"
+
+php artisan make:model "new.model.name" 
+

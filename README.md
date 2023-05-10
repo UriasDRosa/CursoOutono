@@ -31,3 +31,10 @@ php artisan make:controller "controller.name"
 
 php artisan make:model "new.model.name" 
 
+# Se for git clone
+
+executar o composer install e o npm install
+
+trocar o nome do arquivo .env.example para somente .env
+
+gerar uma nova chave com o comando php artisan key:generate

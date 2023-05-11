@@ -33,8 +33,26 @@ php artisan make:model "new.model.name"
 
 # Se for git clone
 
-executar o composer install e o npm install
+executar o composer install 
 
 trocar o nome do arquivo .env.example para somente .env
 
 gerar uma nova chave com o comando php artisan key:generate
+
+rodar o npm install, npm run build e php artisan serve.
+
+# Configurando as rotas/MVC
+
+criar a rota para o arquivo, exemplo: Route::resource('/medico', 'App\Http\Controllers\MedicoController')->middleware(['auth', 'verified']);
+
+criar o controller pelo cmd exemplo: php artisan make:controller MedicoController
+
+importar o Model para o arquivo, exemplo: use App\Models\Medico;
+
+criar uma function, como a index: 
+`public function index(){
+        $medicos = Medico::getAllMedicos();
+        return view ('medicos.index', ['medicos' => $medicos]);
+}`
+
+Na pasta de layouts, criar uma pasta para a view "Medico" por exemplo, criar um arquivo "index.blade.php" dentro da pasta, criar o layout seguindo os padrões do laravel e do blade.
